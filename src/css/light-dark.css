@@ -1,0 +1,149 @@
+/*  Dark Theme Variables */
+[data-theme='dark'] {
+  --bg-color: #0b0803;
+  --text-color: #e0cbb4;
+  --border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Smooth transition between light/dark */
+body {
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+/* Body styles for dark theme */
+[data-theme='dark'] body {
+  background-color: var(--color-coffee-darkest);
+  color: #e0cbb4;
+}
+
+/* Testimonials background in dark mode */
+[data-theme='dark'] .testimonials-cards {
+  background-color: #946d53;
+}
+
+/* Theme Toggle Button  */
+.theme-toggle {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: transparent;
+  border: none;
+}
+
+/* Hover effect for toggle button */
+.theme-toggle:hover {
+  transform: rotate(15deg) scale(1.08);
+}
+
+/* Icon wrapper inside the toggle */
+.icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for icons (sun/moon) */
+.theme-toggle .icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease, filter 0.4s ease;
+}
+
+/* Sun icon (light mode) */
+.theme-toggle .sun {
+  fill: #ebb44e;
+  stroke: #ffb95d;
+  opacity: 1;
+  transform: scale(1);
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.theme-toggle:hover .sun {
+  filter: drop-shadow(0 0 5px rgba(255, 207, 72, 1))
+    drop-shadow(0 0 20px rgba(255, 160, 0, 0.5));
+  transform: scale(1.08);
+}
+
+/* Moon icon (dark mode) */
+.theme-toggle .moon {
+  fill: currentColor;
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+  color: #e0cbb4;
+}
+
+.theme-toggle:hover .moon {
+  filter: drop-shadow(0 0 8px #eadfd6);
+}
+
+/* Dark theme — reverse icons (show moon, hide sun) */
+[data-theme='dark'] .theme-toggle .sun {
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+}
+
+[data-theme='dark'] .theme-toggle .moon {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+/* Dark theme: footer */
+[data-theme='dark'] .footer {
+  background-color: #443022;
+}
+
+/* Dark theme: footer container */
+[data-theme='dark'] .footer-container {
+  background-color: #332317;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+}
+
+/* Dark theme: header */
+[data-theme='dark'] .header {
+  border-bottom: 2px solid #0b0803;
+  background-color: #332317;
+}
+
+/* Dark theme: subscribe input */
+[data-theme='dark'] .subscribe-input::placeholder {
+  color: #946d53;
+}
+
+[data-theme='dark'] .subscribe-input {
+  color: #ffff;
+  border: 1px solid #e0cbb4;
+}
+
+/* Dark theme: star icon */
+[data-theme='dark'] .icon-star {
+  stroke: #e0cbb4;
+}
+
+[data-theme='dark'] .social-icon,
+[data-theme='dark'] .location-contact-icon,
+[data-theme='dark'] .close-icon,
+[data-theme='dark'] .burger-icon,
+[data-theme='dark'] .logo-icon,
+[data-theme='dark'] .footer-logo-icon,
+[data-theme='dark'] .icon-star-fill {
+  fill: #e0cbb4;
+}
+
+[data-theme='dark'] .social-icon:hover {
+  fill: #54524e;
+}
+
+[data-theme='dark'] .modal-welcome {
+  background-color: #332317;
+}
+
+[data-theme='dark'] .mobile-menu {
+  background-color: #443022;
+}
