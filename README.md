@@ -6,19 +6,13 @@ Responsive one-page CoffeeJoy website built with HTML5, CSS3 and JavaScript.
 
 ## Live Demo
 
-Add your deployed project link here:
-
-```text
-https://github.com/achupylko/coffeejoy-website/
-```
+[CoffeeJoy](https://github.com/achupylko/coffeejoy-website/)
 
 ---
 
 ## Preview
 
-```md
-![CoffeeJoy Preview](./src/public/preview/coffeejoy-preview.webp)
-```
+![CoffeeJoy Preview](/src/public/preview/coffeejoy-preview.webp)
 
 ---
 
@@ -65,9 +59,7 @@ I was responsible for developing the `Welcome` section, including:
 - image optimization;
 - section styling and positioning.
 
-```md
 ![Welcome Section](./src/public/preview/welcome-section.webp)
-```
 
 ---
 
@@ -106,13 +98,12 @@ src/
 
 ## Future Improvements
 
-- Add dark mode
 - Improve animations and interactions
 - Optimize performance and accessibility
-- Add Lighthouse metrics to README
 
 ---
 
 ## Author
 
-Developed as part of a Fullstack Web Developer learning journey.
+Developed by [Artem Chupylko](https://github.com/achupylko) as part of a
+Fullstack Web Developer learning journey.
