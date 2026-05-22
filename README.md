@@ -6,7 +6,7 @@ Responsive one-page CoffeeJoy website built with HTML5, CSS3 and JavaScript.
 
 ## Live Demo
 
-[CoffeeJoy](https://github.com/achupylko/coffeejoy-website/)
+[CoffeeJoy](https://achupylko.github.io/coffeejoy-website/)
 
 ---
 
