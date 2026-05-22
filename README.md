@@ -90,8 +90,8 @@ src/
 ├── js/
 ├── partials/
 ├── public/
-├──index.html
-└──main.js
+├── index.html
+└── main.js
 ```
 
 ---
@@ -105,5 +105,5 @@ src/
 
 ## Author
 
-Developed by [Artem Chupylko](https://github.com/achupylko) as part of a
+Developed by _[Artem Chupylko](https://github.com/achupylko)_ as part of a
 Fullstack Web Developer learning journey.
